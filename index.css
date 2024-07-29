@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+header{
+    top:0;
+    position: fixed;
+    width: 100%;
+    z-index:300
+}
+#mainhead{
+    position: relative;
+      width:100%;
+      height: 100px;
+      background-color:white;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+#text{
+    font-size: 24px;
+    color:#23527c;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+}
+#logo1 img{
+    width:50px;
+}
+#logo2 img{
+    height: 70px;;
+}
+#bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+   background: linear-gradient(119.54deg, #000046, #1cb5e0);;
+   color: white;
+   justify-content: space-around;
+}
+#my{
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+#eng{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+}
+#login-section{
+    display: flex;
+    color: white;
+    border-top: 2px solid white;
+      width: 100%;
+      background: linear-gradient(119.54deg, #000046, #1cb5e0);
+      height: 600px;
+}
+#login-text{
+    font-size: 80px;
+    width: 50%;
+    margin: 104px 150px;
+    font-family: "Fira Sans", sans-serif;
+}
+#login-text span{
+    font-weight:600;
+}
+.p{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+}
+#login-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+.login-container{
+    align-items: center;
+    display: flex;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.login-container img{
+    width:150px;
+    height:200px;
+    margin-top: 60px;
+}
+.login-container button{
+    padding: 13px 130px;
+    background:linear-gradient(119.54deg, #000046, #1cb5e0);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    height: 50px;
+
+}
+.btn{
+    margin-top: 60px;
+}
+.btn p{
+    margin: 3px;
+    color: black;
+    text-align: center;
+    font-weight: 200;
+    font-size: 15px;
+}
+#main-section{
+    margin-top: 145px;
+    width: 100%;
+    height:fit-content;
+   background:linear-gradient(119.54deg, #000046, #1cb5e0); ;
+}
+#lang{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+    height: fit-content;
+    font-size: 20px;
+    padding: 0px 200px;
+}
+#enrolment{
+    gap:3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80px;
+    padding: 0px 170px;
+    box-shadow: black;
+    border: 2px solid black
+}
+#enrolment #box1{
+    font-size: 20px;
+    font-family:"Fira Sans", sans-serif;
+    font-weight: bold;
+    
+}
+#enrolment #box2{
+    font-size: 20px;
+    font-family:"Fira Sans", sans-serif;
+    font-weight: bold;
+    border-left: 1px solid black;
+    padding: 0px 20px;
+    border-right: 1px solid black;
+
+}
+#enrolment #box3{
+    font-size: 20px;
+    font-family:"Fira Sans", sans-serif;
+    font-weight: bold;
+}
+#booter{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:"Fira Sans", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
